@@ -13,20 +13,23 @@ ul {
 }
 
 li {  
-    display: inline;  
+    display: inline;
+    padding: 13px;  
 }
 
 nav a {
     color: #C0C0C0;  
     text-decoration: none;
     font-weight: bold;
-    padding: 5px; 
     
 }
 
-nav a:hover {
+nav a:hover, 
+    .active {
     color: #FFF;
 }
+
+
 
 
 .search { 
@@ -48,8 +51,8 @@ button {
 
 
 .search input[type=text] {
-    width: 500px;
-    height: 30px;
+    width: 570px;
+    height: 27px;
     margin: 10px 5px;
 
 
